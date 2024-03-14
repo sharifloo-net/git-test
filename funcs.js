@@ -3,8 +3,7 @@ const getMe = (user) => {
 };
 
 const userAuth = (user) => {
-    if (user.name == 'amin' && user.password == '1234') {
-        return true;
-    } else 
-        return false;
+    if (user.username == 'amin' && user.password == '1234') return true;
+    return false;
 };
+userAuth({ username: 'amin', password: '1234' });
