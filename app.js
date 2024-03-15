@@ -5,4 +5,10 @@ const isLogin = (bool) => {
     return false;
 };
 const test = () => false;
-console.log('hello');
+const register = user => {
+    user.name = 'amin';
+    user.age = 23;
+    if (user.name == 'amin')
+        return true;
+    else return false;
+}
