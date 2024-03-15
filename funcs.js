@@ -7,3 +7,12 @@ const userAuth = (user) => {
     return false;
 };
 userAuth({ username: 'amin', password: '1234' });
+
+class auth {
+    username;
+    password;
+    constructor(username, password) {
+        this.username = username;
+        this.password = password;
+    }
+}
