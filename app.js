@@ -4,7 +4,4 @@ const isLogin = (bool) => {
     if (bool) return true;
     return false;
 };
-
-function testCode() {
-    return true;
-}
+const test = () => false;
