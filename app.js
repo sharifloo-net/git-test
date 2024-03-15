@@ -5,3 +5,4 @@ const isLogin = (bool) => {
     return false;
 };
 const test = () => false;
+console.log('hello');
