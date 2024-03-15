@@ -16,3 +16,8 @@ class auth {
         this.password = password;
     }
 }
+
+const addCourse = (user, course) => {
+    user.courses.push(course);
+    return user;
+};
