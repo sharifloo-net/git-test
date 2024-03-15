@@ -4,3 +4,5 @@ const isLogin = (bool) => {
     if (bool) return true;
     return false;
 };
+
+const test = () => false;
